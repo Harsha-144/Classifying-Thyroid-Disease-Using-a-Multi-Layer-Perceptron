@@ -35,7 +35,7 @@ Thyroid-Disease-Classifier
 ### Setup
 1. **Clone the repo**  
 
-   git clone https://github.com/your-username/thyroid-disease-classifier.git
+   git clone https://github.com/Harsha-144/Classifying-Thyroid-Disease-Using-a-Multi-Layer-Perceptron
    cd thyroid-disease-classifier
 Install dependencies
   pip install -r requirements.txt
