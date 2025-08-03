@@ -4,7 +4,7 @@ from model.utils import load_weights, predict
 import google.generativeai as genai
 
 # ✅ Configure Gemini API directly
-genai.configure(api_key="AIzaSyA675j-vLk9LBiksdIWV8eaBkGXF8J5RMw")
+genai.configure(api_key="enter your key here")
 
 # ✅ Gemini Suggestion (based only on model prediction)
 def gemini_suggestion(condition):
@@ -59,3 +59,4 @@ if st.button("Predict"):
     with st.spinner("Contacting Gemini for a recommendation..."):
         advice = gemini_suggestion(condition)
     st.info(advice)
+
